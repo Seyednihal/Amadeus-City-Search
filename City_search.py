@@ -3,8 +3,8 @@ import json
 from base64 import b64encode
 
 # Replace with your actual API credentials
-client_id = '5UJE3W39ddEVwaci2WPaEmg2yAH4DaHf'
-client_secret = 'GlSNMtp1rC2GwIqM'
+client_id = '*****************'
+client_secret = '************'
 # Encode credentials for authentication
 credentials = f"{client_id}:{client_secret}"
 encoded_credentials = b64encode(credentials.encode()).decode()
